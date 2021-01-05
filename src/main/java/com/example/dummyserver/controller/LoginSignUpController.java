@@ -22,6 +22,7 @@ public class LoginSignUpController {
         HashMap<String, Object> response = new HashMap<String, Object>();
         response.put("success", true);
         response.put("message", "OTP sent successfully");
+        response.put("is_registered", false);
         
 
         return response;
